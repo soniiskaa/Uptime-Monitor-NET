@@ -1,0 +1,44 @@
+body {
+    font-family: Italiana, sans-serif;
+    padding: 20px;
+    background: #f4f4f9;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card{
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px  rgba(0,0,0,0,1);
+}
+
+.online{
+    background-color: #d1e7dd;
+    border-left: 5px solid #198754;
+}
+
+.offline{
+    background-color: #f8d7da; 
+    border-left: 5px solid #dc3545;
+}
+
+.pending { 
+    background-color: #fff3cd; 
+    border-left: 5px solid #ffc107; 
+}
+h3 { 
+    margin: 0 0 10px 0; 
+    font-size: 18px; 
+    word-break: break-all; 
+}
+p { 
+    margin: 5px 0; 
+    color: #555; 
+    font-size: 14px; 
+}
